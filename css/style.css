@@ -131,6 +131,9 @@ color: #99ceff;
   background: #555555;
 }*/
 
+.card{
+--bs-card-border-color: none!important
+}
 span {
   color: #5b98ff;
 }
