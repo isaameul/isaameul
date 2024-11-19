@@ -153,9 +153,7 @@ color: #99ceff;
   position: relative;
   display: flex
 }
-.card{
---bs-card-border-color: none!important
-}
+
 span {
   color: #5b98ff;
 }
