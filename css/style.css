@@ -3,8 +3,6 @@ box-sizing: border-box;
 overflow-x: hidden;
 } 
 
-
-
 .logobar {
   background-color: #fff;
   padding-top: 18px;
@@ -13,14 +11,8 @@ overflow-x: hidden;
 }
 
 
-  h1 {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: xx-large;
-    color: #000;
-    font-weight: bolder;
-  }
 
-  legend {
+.legend {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: medium;
     color: #5b98ff;
@@ -57,6 +49,7 @@ overflow-x: hidden;
 .py-3 {
   padding-bottom: 0!important;
 }
+
 /*Knop styling*/
 .centered-button {
   display: block;
@@ -98,12 +91,8 @@ overflow-x: hidden;
   --bs-card-border-color:none!important;
 }
 
-span {
-  color: #5b98ff;
-}
 
-
-
+/* icoontjes contactpagina */
 .bi {
   color: #5b98ff;
   font-weight: 700;
@@ -114,9 +103,6 @@ th {
   font-weight: bold;
 }
 
-strong {
-  font-weight: 500;
-}
 
 table {
   margin-bottom: 2rem !important;
