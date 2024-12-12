@@ -1,7 +1,9 @@
  html, body{
 box-sizing: border-box;
 overflow-x: hidden;
-} 
+font-family: Arial, Helvetica, sans-serif;
+
+}
 
 .logobar {
   background-color: #fff;
@@ -10,22 +12,21 @@ overflow-x: hidden;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.justify{
+  text-align: justify;
+}
 
-
-.legend {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: medium;
-    color: #5b98ff;
-  }
- 
-  hr{
-    color: #5b98ff;
-    height: 1px;
-  }
+.port {
+  align-content: space-evenly;
+}
+hr{
+  color: #5b98ff;
+  height: 1px;
+}
 
 /* NAVBAR STYLING */
 .navbar{
-  margin-left:auto;
+  margin-left:5%;
   margin-right: auto;
 }
 .navbar-nav .nav-link.active{
@@ -40,6 +41,16 @@ overflow-x: hidden;
   color:#5b98ff ;
 }
 
+.nav-item.dropdown:hover .dropdown-menu{
+  display: block;
+  margin-top: 0;
+}
+
+.navbar-toggler {
+  margin-right: 8%;
+  transition: none;
+}
+
 
 .py-4 {
   padding-top: 0 !important;
@@ -50,18 +61,20 @@ overflow-x: hidden;
   padding-bottom: 0!important;
 }
 
-/*Knop styling*/
-.centered-button {
-  display: block;
-  margin: 0 auto;
-}
+
 
 .btn-primary {
-  --bs-btn-color: #f8f9fa;
-  --bs-btn-bg: #5b98ff;
-  --bs-btn-border-color: #5b98ff;
-  --bs-btn-hover-color: #f8f9fa;
-  --bs-btn-hover-bg: #2b79ff;
+  text-transform: uppercase;
+  font-size: normal;
+  display: block;
+  margin: 0 auto;
+  font-weight: bolder;
+  max-width: 60%;
+  --bs-btn-color: #5b98ff;
+  --bs-btn-bg: #fff;
+  --bs-btn-border-color: #c8c8c8;
+  --bs-btn-hover-color: hsl(0, 0%, 100%);
+  --bs-btn-hover-bg: #5b98ff;
   --bs-btn-hover-border-color: #5b98ff;
   --bs-btn-focus-shadow-rgb: 49, 132, 253;
   --bs-btn-active-color: #f8f9fa;
@@ -159,9 +172,6 @@ table {
   padding-left: 20px ;
   padding-bottom: 10px;
   padding-right: 20px;
-}
-.progressbg {
-  background-color: #5b98ff;
 }
 
 .fade-bottom-container {
