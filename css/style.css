@@ -196,3 +196,6 @@ table {
   pointer-events: none; 
 }
 
+#map {
+  height: 180px;
+}

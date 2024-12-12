@@ -18,11 +18,20 @@
   <!-- eigen geschreven css voor jouw html-bestand -->
  <link href="css/style.css" rel="stylesheet">
  <link href="css/fonts.css" rel="stylesheet">
+ <link href="css/map.css" rel="stylesheet">
+
+ <!-- Css voor de map-->
+ <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"  integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
  <!-- Favicon-->
  <link rel="icon" type="image/x-icon" href="assets/images/favicon-32x32.png">
 
+ <!-- Javascript voor de map-->
+ <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="  crossorigin=""></script>
+
   <!-- Javascript files hieronder plaatsen -->
   <script src="/js/script.js" defer></script>
+  <script src="/js/map.js" defer></script>
+
 </head>
 
 <body>
@@ -168,7 +177,9 @@
   </div>
     </div>
       <div class="col-lg-4 ">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d923.5450173541923!2d4.413758852027687!3d51.22981816461555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3f65215964b33%3A0x6ed6241722915029!2sAP%20Hogeschool%20-%20Campus%20Noorderplaats!5e1!3m2!1snl!2sbe!4v1730042605721!5m2!1snl!2sbe" width="100%" height="450" style="border:0;" allowfullscreen="" loading="fast" referrerpolicy="no-referrer-when-downgrade"></iframe>     
+          <div id="map">
+          </div>
+        </section>
       </div>
   </div>
 </div>
