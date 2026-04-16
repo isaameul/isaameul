@@ -12,4 +12,4 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 var marker = L.marker([51.22078, 4.29637]).addTo(map);
 
 /*Pop-up*/
-marker.bindPopup("<b>Grote Baan 192, 9120 Melsele.").openPopup();
+marker.bindPopup("<b>Grote Baan 102, 9120 Melsele.").openPopup();
